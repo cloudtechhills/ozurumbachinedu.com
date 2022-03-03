@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Lobster', cursive;
+  box-sizing: border-box;
+}
+.header {
+  background: black;
+}
+.navbar {
+  padding-top: 20px !important;
+}
+.nav-item {
+  margin-left: 40px !important;
+  margin-bottom: 10px !important;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 12px !important;
+  padding: 0 0 5px 0 !important;
+  display: unset !important;
+  font-family: 'Poppins' !important;
+}
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold !important;
+  padding-right: 40px !important;
+  color: rgb(23, 231, 4) !important;
+}
+.navbar-toggler {
+  font-size: 20px;
+  outline: none;
+  color: rgb(23, 231, 4);
+  border: 2px;
+}
+
+.active-home {
+  border-bottom: 2px solid rgb(23, 231, 4);
+}
+.nav-link:hover {
+  border-bottom: 2px solid rgb(23, 231, 4);
+}
+
+/*  banner  */
+.banner {
+  margin-top: 8%;
+  color: #fff;
+}
+
+.banner h1 {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Poppins' !important;
+}
+.banner .chinedu {
+  color: rgb(23, 231, 4);
+  margin: 20px 0px 20px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.banner h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.banner h4 {
+  color: rgb(23, 231, 4);
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.banner span {
+  color: rgb(23, 231, 4);
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: 'Poppins' !important;
+}
+.banner img {
+  max-height: 500px;
+}
+.banner .express-btn {
+  padding: 12px;
+  width: 150px;
+  display: block;
+  background-color: rgb(23, 231, 4);
+  text-decoration: none !important;
+  color: black;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  text-align: center !important;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.banner a:hover {
+  background-color: #fff !important;
+  color: rgb(23, 231, 4);
+}
+
+/* Beginning of About Section */
+.about {
+  padding-top: 150px;
+  background-color: black;
+  color: white;
+  text-align: right !important;
+  padding-bottom: 20px;
+}
+.about-me img {
+  height: 600px;
+  border-radius: 50px;
+  width: 80%;
+  padding-bottom: 10px;
+}
+.about-me h1 {
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  border: 2px solid rgb(23, 231, 4);
+  border-radius: 30px;
+  background-color: rgb(23, 231, 4) !important;
+  cursor: pointer;
+}
+
+.about-me h1:hover {
+  background-color: #fff !important;
+  color: rgb(23, 231, 4);
+}
+
+.about-me h6 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins' !important;
+}
+.about-me .express-btn {
+  padding: 12px;
+  width: 150px;
+  display: block;
+  background-color: rgb(23, 231, 4);
+  text-decoration: none !important;
+  color: black;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  text-align: center !important;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.about-me .express-btn:hover {
+  background-color: #fff !important;
+  color: rgb(23, 231, 4);
+}
+
+/* BEGINNING OF SKILL SECTION */
+.skills {
+  padding-top: 150px;
+  background-color: black;
+  color: white;
+  text-align: left !important;
+  padding-bottom: 20px;
+}
+.skill-text {
+  color: rgb(23, 231, 4);
+  font-size: 75px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+
+  border-radius: 100px;
+  cursor: pointer;
+}
+.skill-text:hover {
+  background-color: #fff !important;
+  color: rgb(23, 231, 4);
+}
+.my-skills h1 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center !important;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 100px;
+  border: 2px solid;
+  background-color: rgb(23, 231, 4);
+}
+.my-skills h3 {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: left !important;
+}
+.progress-bar {
+  background-color: rgb(45, 109, 32);
+}
+.text-right h3 {
+  text-align: left !important;
+}
